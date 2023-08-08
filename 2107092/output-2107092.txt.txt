@@ -1,0 +1,109 @@
+Enter Command: add_prisoner
+Prisoner Details:
+Tag:
+200
+Name:
+Ziad
+Crime:
+Murder
+Sentence in years:
+30
+
+
+Enter Command: add_prisoner
+Prisoner Details:
+Tag:
+250
+Name:
+Hasan
+Crime:
+Stealing
+Sentence in years:
+5
+
+
+Enter Command: population
+Number of Guards: 0
+Number of Prisoners: 2
+
+Enter Command: add_guard
+ID: 400
+Name: Habib
+Block: C
+
+Enter Command: add_guard
+ID: 450
+Name: Shihab
+Block: B
+
+Enter Command: display_all
+Prisoner list:
+200     Name: Ziad      Crime: Murder   Sentence: 30 Years
+250     Name: Hasan     Crime: Stealing Sentence: 5 Years
+
+Guard list:
+ID: 400 Name: Habib     Block: C
+
+ID: 450 Name: Shihab    Block: B
+
+
+Enter Command: display_prisoner
+Prisoner Tag: 250
+250     Name: Hasan     Crime: Stealing Sentence: 5 Years
+
+Enter Command: increase_sentence
+Prisoner Tag: 250
+Increment in sentence: 2
+Sentence increased by 2years
+New sentence: 7 Years
+
+Enter Command: decrease_sentence
+Prisoner Tag: 200
+Decrement in sentence: 10
+Sentence decreased by 10years
+New sentence: 20Years
+
+Enter Command: display_all
+Prisoner list:
+200     Name: Ziad      Crime: Murder   Sentence: 20 Years
+250     Name: Hasan     Crime: Stealing Sentence: 7 Years
+
+Guard list:
+ID: 400 Name: Habib     Block: C
+
+ID: 450 Name: Shihab    Block: B
+
+
+Enter Command: release_prisoner
+Prisoner Tag: 200
+Prisoner with tag: 200 has been released.
+Enter Command: display_all
+Prisoner list:
+250     Name: Hasan     Crime: Stealing Sentence: 7 Years
+
+Guard list:
+ID: 400 Name: Habib     Block: C
+
+ID: 450 Name: Shihab    Block: B
+
+
+Enter Command: population
+Number of Guards: 2
+Number of Prisoners: 1
+
+Enter Command: remove_guard
+Guard ID: 400
+Guard with ID: 400 has left.
+Enter Command: population
+Number of Guards: 1
+Number of Prisoners: 1
+
+Enter Command: display_all
+Prisoner list:
+250     Name: Hasan     Crime: Stealing Sentence: 7 Years
+
+Guard list:
+ID: 450 Name: Shihab    Block: B
+
+
+Enter Command: END
